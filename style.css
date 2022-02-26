@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url(./images/background.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+}
+
+.container {
+  margin-top: 15px;
+  margin: auto;
+ 
+}
+.container input{
+  padding: 10px;
+  
+}
+
+:root {
+  --cor-primaria-succes: rgb(75, 200, 138);
+  --cor-secundaria-succes: rgb(36, 92, 64);
+}
+.btn {
+  margin: center;
+  margin-left: center;
+}
+button {
+  margin-left: 10px;
+  margin-top: 50px;
+  padding: 10px;
+  background: var(--cor-primaria-succes);
+  cursor: pointer;
+  color: white;
+  border-color: var(--cor-secundaria-succes);
+  border-radius: 0.4rem;
+  border: none;
+  transition: background 0.7s;
+}
+button:hover {
+  background-color: var(--cor-secundaria-succes);
+}
+h2 {
+  padding: auto;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
